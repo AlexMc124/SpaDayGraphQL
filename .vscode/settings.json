@@ -1,0 +1,35 @@
+{
+    "python.testing.pytestArgs": [
+        "src"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "jupyter.jupyterServerType": "remote",
+    "python.autoComplete.addBrackets": true,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "flake8",
+    "python.linting.flake8Args": [
+      "--append-config=src/setup.cfg"
+    ],
+    "python.formatting.provider": "black",
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "css.validate": false,
+    "scss.validate": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "eslint.format.enable": true,
+    "git.inputValidationSubjectLength": 70,
+    "python.analysis.completeFunctionParens": true
+}
