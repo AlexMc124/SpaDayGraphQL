@@ -9,6 +9,6 @@ class BookType(DjangoObjectType):
         fields = ('id', 'title', 'excerpt')
 
 class Query(graphene.ObjectType):
-    books = graphene.List(BookType)
+    all_books = graphene.List(BookType)
 
 schema = graphene.Schema(query=Query)
